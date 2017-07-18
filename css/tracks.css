@@ -1,0 +1,438 @@
+html body {
+	margin:0;
+	padding: 0;
+}
+/* ----------- 1600-1200 ----------- */
+@media screen 
+  and (min-width: 1200px) 
+  and (max-width: 1600px) { 
+  	body{
+background-color: #f2f2f2;
+/*overflow: hidden;*/
+min-height: : 800px;
+overflow-y:scroll; 
+  	}
+    #button{
+      display: none;
+    }
+
+  	.header{
+  		width:100%;
+  		height:5vh;
+  		background-color: black;
+  	} 
+
+  	.tracks{
+  		width:90%;
+  		display: block;
+  		height: 90vh;
+  		/*overflow: hidden;*/
+      margin-right: 250px;
+      margin-left: -50px;
+  	}
+
+  	.tickets{
+  		width:20%;
+  		height: 90%;
+  		/*overflow: hidden;	*/
+  		float: right;
+  	}
+
+  	.tickets .photo{
+  		background-image: url("../designs/pic-04.jpg");
+  		background-size:cover;
+  	  	background-position: 50% 50%;
+  		width: 95%;
+  		height: 300px;
+  		margin:5% 0 0 10px ;
+  }
+
+  .ticket{
+  	  	width:90%;
+  	height:100px;
+  	margin: 0 0 0 40%;
+  	  }
+  	  .ticket img{
+  	  	  width:110px;
+    height:110px;
+    margin: 10px 10px 0 0;
+  	  }
+  	  .ticket h2{
+  	  	margin: 20px 70px 25px -60px ;
+  	  	text-align: center;
+  	  	font-family: 'RockoFLF' , sans-serif ;
+  	  	color:#F8981D;
+  	  	font-weight: 350%;
+  	  	font-size: 180%
+  	  }
+  	  .soccer{
+  	  	width:20%;
+  		height: 90%;
+  		/*overflow: hidden;	*/
+  		float: right;
+  	  }
+  	  .soccer .photo{
+  	  	background-image: url("../designs/pic-03.jpg");
+  	  	background-size:cover;
+  	  	background-position: 50% 50%;
+  		width: 95%;
+  		height: 300px;
+  		margin:5% 0 0 10px ;
+  }
+
+  .soccer-icon{
+  	width:90%;
+  	height:150px;
+  	margin: 0 0 0 40%;
+  }
+  .soccer-icon img{
+  	  	  width:110px;
+    height:110px;
+    margin: 10px 0 0 -10px;
+  }
+
+.soccer-icon h2{
+  	  	margin: 20px 70px 25px -60px ;
+  	  	text-align: center;
+  	  	font-family: 'RockoFLF' , sans-serif ;
+  	  	color:#1BB99A;
+  	  	font-weight: 350%;
+  	  	font-size: 180%
+  	  }
+      .events{
+          width:20%;
+      height: 90%;
+     /* overflow: hidden; */
+      float: right;
+      }
+      .events .photo{
+        background-image: url("../designs/pic-02.jpg");
+        background-size:cover;
+        background-position: 50% 50%;
+      width: 95%;
+      height: 300px;
+      margin:5% 0 0 10px ;
+      }
+      .events-icon{
+        width:90%;
+    height:100px;
+    margin: 0 0 0 0;
+      }
+      .event-icon h2{
+    margin: 20px 0 25px 15px ;
+        text-align: center;
+        font-family: 'RockoFLF' , sans-serif ;
+        color:#F16571;
+        font-weight: 350%;
+        font-size: 180%
+      }
+      .event-icon img{
+          width:110px;
+    height:110px;
+    margin: 10px 0 0 70px;
+      }
+
+.spaces{
+          width:20%;
+      height: 90%;
+      /*overflow: hidden; */
+      float: right;
+      }
+      .spaces .photo{
+        background-image: url("../designs/pic-01.jpg");
+        background-size:cover;
+        background-position: 50% 50%;
+      width: 95%;
+      height: 300px;
+      margin:5% 0 0 10px ;
+      }
+      .spaces-icon{
+        width:90%;
+    height:00px;
+    margin: -5px 0 0 0;
+      }
+      .spaces-icon h2{
+    margin: 10px 0 5px 35px ;
+        text-align: center;
+        font-family: 'RockoFLF' , sans-serif ;
+        color:#1EBBD6;
+        font-weight: 350%;
+        font-size:180%
+      }
+      .spaces-icon img{
+          width:110px;
+    height:110px;
+    margin: 20px 0 0 70px;
+      }
+  }
+
+  /* ----------- 1200px-640px ----------- */
+@media screen 
+  and (min-width: 640px) 
+  and (max-width: 1200px) {
+	body{background: white;
+   /* overflow: hidden;*/
+   overflow-y:scroll; 
+	}
+  .tracks{
+    width:100%;
+    height:500px;
+    background-color: white;
+    /*overflow: hidden;*/
+    display: block;
+    float: right;
+   
+  }
+	.spaces{
+    width:23%;
+    height: 85%;
+    background-color:#1EBBD6;
+    float:right;
+    margin: 25px 10px 10px 10px;
+  }
+  .tickets{
+width:23%;
+    height: 85%;
+    background-color:#F8981D;
+    float:right;
+    margin: 25px 10px 10px 10px;
+  }
+  .events{
+    width:23%;
+    margin: 25px 10px 10px 10px;
+    height: 85%;
+    background-color:#F16571;
+    float:right;
+  }
+  .soccer{
+    width:23%;
+    margin: 25px 10px 10px 10px;
+    height: 85%;
+    background-color:#1BB99A;
+    float:right;
+  }
+  .ticket a img{
+  display: none;
+}
+.soccer-icon a img{
+  display: none;
+}
+.event-icon a img{
+  display: none;
+}
+.spaces-icon a img{
+  display: none;
+}
+.ticket h2{
+    text-align: center;
+        font-family: 'RockoFLF' , sans-serif ;
+        color:white;
+        font-weight: 300%;
+        font-size: 150%;
+}
+.event-icon h2{
+    text-align: center;
+        font-family: 'RockoFLF' , sans-serif ;
+        color:white;
+        font-weight: 300%;
+        font-size: 150%;
+}
+.soccer-icon h2{
+    text-align: center;
+        font-family: 'RockoFLF' , sans-serif ;
+        color:white;
+        font-weight: 300%;
+        font-size: 150%;
+        
+}
+.spaces-icon h2{
+    text-align: center;
+        font-family: 'RockoFLF' , sans-serif ;
+        color:white;
+        font-weight: 300%;
+        font-size: 150%;
+        
+}
+.ticket img {
+  margin: 35px 30% ;
+  width:50%;
+  height: 50%;
+ min-width: 30%;
+  max-width: 40%;}
+
+.soccer-icon  img {
+  margin:35px 30% ;
+  width:50%;
+  height: 50%;
+   min-width: 30%;
+  max-width: 40%;
+}
+.event-icon  img {
+  margin:35px 30% ;
+  width:50%;
+  min-width: 30%;
+  max-width: 40%;
+  height: 50%;
+}
+.spaces-icon  img {
+  margin: 35px 30%;
+   min-width: 30%;
+  max-width: 40%;
+ width:50%;
+  height: 50%;
+}
+#button{
+
+  color:white;
+  border: 2px solid white;
+text-align: center;
+ font-family: 'RockoFLF' , sans-serif ;
+ font-weight: 200%;
+ font-size: 120%;
+width: 60%;
+height: 40px;
+ padding-top: 12px;
+margin:30px auto;
+}
+.spaces-icon #button {
+  margin-top : 35px ;
+}
+a{
+  text-decoration: none;
+}
+
+}
+
+/* ----------- 640px-320px ----------- */
+@media screen 
+  and (min-width: 320px) 
+  and (max-width: 640px) {
+	body{background: white;
+    overflow: scroll;
+    /*overflow: hidden;*/
+  }
+  .tracks{
+    width:100%;
+    height:100%;
+    background-color: white;
+  /*  overflow: hidden;*/
+    display: block;
+    margin-left: -10px;
+  }
+  .part-1{
+    width:100%;
+    height: 50%;
+    display: block;
+  }
+  .part-2{
+ width:100%;
+    height: 50%;
+    display: block;
+  
+  }
+  .spaces{
+    width:45%;
+    height:350px;
+    background-color:#1EBBD6;
+    float:right;
+    margin: 25px 10px 10px 0;
+  }
+  .tickets{
+width:45%;
+    height:350px;
+    background-color:#F8981D;
+    float:right;
+    margin: 25px 10px 10px 0;
+  }
+  .events{
+    width:45%;
+    height:350px;
+    margin: 25px 10px 10px 0;
+        background-color:#F16571;
+    float:right;
+  }
+  .soccer{
+   width:45%;
+    height:350px;
+    margin: 25px 10px 10px 0;
+    background-color:#1BB99A;
+    float:right;
+  }
+.ticket a img{
+  display: none;
+}
+.soccer-icon a img{
+  display: none;
+}
+.event-icon a img{
+  display: none;
+}
+.spaces-icon a img{
+  display: none;
+}
+.ticket h2{
+    text-align: center;
+        font-family: 'RockoFLF' , sans-serif ;
+        color:white;
+        font-weight: 350%;
+        font-size: 170%
+}
+.event-icon h2{
+    text-align: center;
+        font-family: 'RockoFLF' , sans-serif ;
+        color:white;
+        font-weight: 350%;
+        font-size: 170%
+}
+.soccer-icon h2{
+    text-align: center;
+        font-family: 'RockoFLF' , sans-serif ;
+        color:white;
+        font-weight: 350%;
+        font-size: 170%
+}
+.spaces-icon h2{
+    text-align: center;
+        font-family: 'RockoFLF' , sans-serif ;
+        color:white;
+        font-weight: 350%;
+        font-size: 170%
+}
+.ticket img {
+  margin: 15% 30% ;
+  width:75px;
+  height: 75px;
+}
+.soccer-icon  img {
+ margin: 15% 30% ;
+  width:75px;
+  height: 75px;
+}
+.event-icon  img {
+ margin: 20% 30% ;
+  width:75px;
+  height: 75px;
+}
+.spaces-icon  img {
+ margin: 5% 30% ;
+  width:75px;
+  height: 75px;
+}
+#button{
+  color:white;
+  border: 2px solid white;
+text-align: center;
+ font-family: 'RockoFLF' , sans-serif ;
+ font-weight: 200%;
+ font-size: 100%;
+width: 75px;
+height: 20px;
+ padding: 2%;
+margin: auto;}
+.spaces-icon #button {
+  margin-top : 15% ;
+}
+a{
+  text-decoration: none;
+}
+}
